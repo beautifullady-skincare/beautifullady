@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Beautiful Lady - Mỹ phẩm cao cấp, chăm sóc vẻ đẹp của bạn.">
+  <title>Beautiful Lady | Beauty & Skincare</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topbar">BEAUTY BEGINS WITH YOU <span>✦</span> MIỄN PHÍ VẬN CHUYỂN CHO ĐƠN TỪ 699K</div>
+  <header class="header">
+    <button class="menu-toggle" aria-label="Mở menu">☰</button>
+    <a class="logo" href="#home">BEAUTIFUL <span>LADY</span><small>BEAUTY & SKINCARE</small></a>
+    <nav class="nav" id="nav">
+      <a class="active" href="#home">Trang chủ</a>
+      <a href="#products">Sản phẩm</a>
+      <a href="#collections">Bộ sưu tập</a>
+      <a href="#about">Về chúng tôi</a>
+      <a href="#contact">Liên hệ</a>
+    </nav>
+    <div class="header-actions">
+      <button aria-label="Tìm kiếm" id="search-toggle">⌕</button>
+      <a href="#contact" aria-label="Tài khoản">♙</a>
+      <button class="cart-button" id="cart-open" aria-label="Giỏ hàng">♧ <span id="cart-count">0</span></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">THE ART OF BEAUTY · EST. 2024</p>
+        <h1>Vẻ đẹp của bạn,<br><em>phiên bản rạng ngời nhất.</em></h1>
+        <p class="hero-desc">Khám phá thế giới chăm sóc sắc đẹp tinh tế, nơi những lựa chọn được tuyển chọn để nâng niu làn da và tôn vinh nét riêng của bạn.</p>
+        <div class="hero-buttons">
+          <a class="btn btn-dark" href="#products">KHÁM PHÁ NGAY <span>↗</span></a>
+          <a class="text-link" href="#about">Câu chuyện thương hiệu</a>
+        </div>
+        <div class="hero-note"><span>✦</span> BEAUTY IS A DAILY RITUAL</div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-image"></div>
+        <div class="hero-stamp">BEAUTY<br>IN EVERY<br>DETAIL <span>✦</span></div>
+        <div class="hero-caption">YOUR MOMENT<br>YOUR BEAUTY.</div>
+      </div>
+    </section>
+
+    <section class="benefits">
+      <div><span>✧</span><p><b>Sản phẩm chọn lọc</b><small>Chú trọng chất lượng</small></p></div>
+      <div><span>◇</span><p><b>Chăm sóc tận tâm</b><small>Đồng hành cùng làn da</small></p></div>
+      <div><span>♧</span><p><b>Giao hàng toàn quốc</b><small>Đóng gói chỉn chu</small></p></div>
+      <div><span>♡</span><p><b>Ưu đãi thành viên</b><small>Đặc quyền mỗi tháng</small></p></div>
+    </section>
+
+    <section class="section categories" id="collections">
+      <div class="section-heading">
+        <div><p class="eyebrow">DISCOVER YOUR ROUTINE</p><h2>Danh mục <em>nổi bật</em></h2></div>
+        <a class="text-link" href="#products">Xem tất cả ↗</a>
+      </div>
+      <div class="category-grid">
+        <a class="category-card cat-one" href="#products"><div><small>01 / SKINCARE</small><h3>Chăm sóc da</h3><span>Khám phá ↗</span></div></a>
+        <a class="category-card cat-two" href="#products"><div><small>02 / MAKEUP</small><h3>Trang điểm</h3><span>Khám phá ↗</span></div></a>
+        <a class="category-card cat-three" href="#products"><div><small>03 / BODY CARE</small><h3>Chăm sóc cơ thể</h3><span>Khám phá ↗</span></div></a>
+      </div>
+    </section>
+
+    <section class="section products-section" id="products">
+      <div class="section-heading">
+        <div><p class="eyebrow">THE BEAUTY EDIT</p><h2>Sản phẩm <em>được yêu thích</em></h2></div>
+        <div class="filters">
+          <button class="filter active" data-filter="all">Tất cả</button>
+          <button class="filter" data-filter="skincare">Chăm sóc da</button>
+          <button class="filter" data-filter="makeup">Trang điểm</button>
+          <button class="filter" data-filter="body">Cơ thể</button>
+        </div>
+      </div>
+      <div class="product-grid" id="product-grid">
+        <article class="product-card" data-category="skincare">
+          <div class="product-image p1"><span class="tag">BEST SELLER</span><button class="quick-add" data-name="Tinh chất dưỡng ẩm" data-price="520000">＋</button></div>
+          <p class="product-type">SKINCARE · SERUM</p><h3>Tinh chất dưỡng ẩm</h3><div class="product-bottom"><strong>520.000₫</strong><span>★★★★★</span></div>
+        </article>
+        <article class="product-card" data-category="skincare">
+          <div class="product-image p2"><span class="tag tag-new">NEW</span><button class="quick-add" data-name="Kem dưỡng phục hồi" data-price="680000">＋</button></div>
+          <p class="product-type">SKINCARE · MOISTURIZER</p><h3>Kem dưỡng phục hồi</h3><div class="product-bottom"><strong>680.000₫</strong><span>★★★★★</span></div>
+        </article>
+        <article class="product-card" data-category="makeup">
+          <div class="product-image p3"><button class="quick-add" data-name="Son môi satin rose" data-price="390000">＋</button></div>
+          <p class="product-type">MAKEUP · LIP</p><h3>Son môi Satin Rose</h3><div class="product-bottom"><strong>390.000₫</strong><span>★★★★☆</span></div>
+        </article>
+        <article class="product-card" data-category="body">
+          <div class="product-image p4"><button class="quick-add" data-name="Sữa dưỡng thể mềm mịn" data-price="450000">＋</button></div>
+          <p class="product-type">BODY CARE · LOTION</p><h3>Sữa dưỡng thể mềm mịn</h3><div class="product-bottom"><strong>450.000₫</strong><span>★★★★★</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="promo">
+      <div class="promo-image"></div>
+      <div class="promo-copy"><p class="eyebrow">A LITTLE GIFT FOR YOU</p><h2>Nuông chiều bản thân<br>với ưu đãi <em>đặc biệt.</em></h2><p>Nhận ngay ưu đãi 10% cho đơn hàng đầu tiên khi đăng ký nhận tin từ Beautiful Lady.</p><a class="btn btn-light" href="#newsletter">NHẬN ƯU ĐÃI ↗</a></div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="about-image"></div>
+      <div class="about-copy"><p class="eyebrow">OUR PHILOSOPHY</p><h2>Vẻ đẹp không cần<br>theo một <em>khuôn mẫu.</em></h2><p>Beautiful Lady tin rằng mỗi người phụ nữ đều sở hữu nét đẹp riêng. Chúng tôi mang đến những sản phẩm làm đẹp được chọn lọc cùng cảm hứng chăm sóc bản thân mỗi ngày.</p><a class="text-link" href="#contact">Tìm hiểu thêm về chúng tôi ↗</a></div>
+    </section>
+
+    <section class="newsletter" id="newsletter"><p class="eyebrow">STAY IN TOUCH</p><h2>Nhận cảm hứng làm đẹp <em>mỗi ngày.</em></h2><p>Đăng ký email để cập nhật sản phẩm mới và ưu đãi dành riêng cho bạn.</p><form id="newsletter-form"><input type="email" placeholder="Địa chỉ email của bạn" required><button type="submit">ĐĂNG KÝ ↗</button></form><small id="newsletter-message"></small></section>
+  </main>
+
+  <footer id="contact">
+    <div class="footer-main">
+      <div class="footer-brand"><a class="logo logo-footer" href="#home">BEAUTIFUL <span>LADY</span><small>BEAUTY & SKINCARE</small></a><p>Nâng niu vẻ đẹp riêng, bắt đầu từ những điều nhỏ nhất.</p></div>
+      <div><h4>KHÁM PHÁ</h4><a href="#products">Sản phẩm</a><a href="#collections">Bộ sưu tập</a><a href="#about">Câu chuyện thương hiệu</a></div>
+      <div><h4>HỖ TRỢ</h4><a href="#contact">Chính sách giao hàng</a><a href="#contact">Đổi trả & hoàn tiền</a><a href="#contact">Câu hỏi thường gặp</a></div>
+      <div><h4>LIÊN HỆ</h4><p>Hotline: 1900 888 999</p><p>Email: hello@beautifullady.vn</p><p>Hà Nội, Việt Nam</p></div>
+    </div>
+    <div class="copyright">© 2025 BEAUTIFUL LADY. ALL RIGHTS RESERVED. <span>MADE WITH LOVE ✦</span></div>
+  </footer>
+
+  <div class="search-panel" id="search-panel"><input id="search-input" type="search" placeholder="Tìm kiếm sản phẩm..."><button id="search-close">✕</button></div>
+  <div class="cart-overlay" id="cart-overlay"></div>
+  <aside class="cart-drawer" id="cart-drawer"><div class="cart-head"><h3>Giỏ hàng của bạn</h3><button id="cart-close">✕</button></div><div id="cart-items" class="cart-items"><p class="empty-cart">Giỏ hàng đang trống.</p></div><div class="cart-total"><span>Tạm tính</span><strong id="cart-total">0₫</strong></div><button class="btn btn-dark checkout" id="checkout">TIẾN HÀNH THANH TOÁN ↗</button><small class="demo-note">Bản demo giao diện — chưa kết nối thanh toán thực tế.</small></aside>
+  <div class="toast" id="toast"></div>
+  <script src="script.js"></script>
+</body>
+</html>
